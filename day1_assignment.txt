@@ -1,0 +1,61 @@
+1- Imperative or Functional
+Python is not a purely functional language.you can write recursively in Python. But you need your compiler to optimise tail-recursion in your language to make it a viable substitute for iterative loops in terms of performance. Without this optimisation you’ll just fill up the stack if you try to process any long list.
+
+2 - Frame one example on each operator.
+Arithmetic Operator:
+x = 10         
+y = 20       
+z = x+y, z = y-x, z = x*y, z = y/z, z = 10**20
+
+Assignment Operator
+x = 5
+x += 5
+x -= 5
+x **= 5
+x /= 5
+
+Comparison Operator
+x = 10
+y = 12
+x > y , x < y, x == y, x!=y, x>=y, x<=y
+
+
+Logical Operator
+x = True
+y = False
+x and y , x or y, x not y
+
+Membership Operator
+a = 10
+b = 20
+list = [1,2,3,4,5];
+a in list, b not in list, 
+
+Identity Operator
+x1 = 5
+y1 = 5
+x2 = 'hello'
+y2 = 'hello'
+x3 = [1,2,3]
+y3 = [1,2,3]
+x1 is not y1,  x2 is y2,   x3 is y3
+
+3-Take two input from the user, compare them and print Whether True or False.
+
+a = input()
+
+b = input()
+
+if x > y:
+   print('higher value is ' +  x),
+else:
+  print ('higher value is ' + y)
+
+
+
+
+
+
+
+
+
